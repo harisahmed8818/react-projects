@@ -7,6 +7,13 @@
     <title>React JS</title>
   </head>
   <body>
-    <h1>React JavaScript</h1>
+    <h3>Hello from HTML</h3>
+    <div id="h1"></div>
+    <script>
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello World from JavaScript!";
+      const h1 = document.getElementById("h1");
+      h1.appendChild(heading);
+    </script>
   </body>
 </html>
